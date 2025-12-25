@@ -1,0 +1,27 @@
+{
+  "name": "article-enhancer",
+  "version": "1.0.0",
+  "description": "NodeJS script to enhance articles using Google Search and OpenAI GPT",
+  "main": "articleEnhancer.js",
+  "scripts": {
+    "start": "node articleEnhancer.js",
+    "dev": "nodemon articleEnhancer.js"
+  },
+  "keywords": [
+    "article",
+    "enhancement",
+    "openai",
+    "scraping"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

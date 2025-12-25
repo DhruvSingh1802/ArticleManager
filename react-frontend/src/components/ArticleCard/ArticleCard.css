@@ -1,0 +1,86 @@
+.article-card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.article-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.article-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.article-badge .badge {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.badge.enhanced {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.badge.original {
+  background: #f0f0f0;
+  color: #666;
+}
+
+.article-date {
+  color: #999;
+  font-size: 0.85rem;
+}
+
+.article-title {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.article-excerpt {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  flex: 1;
+}
+
+.references {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.references-label {
+  color: #667eea;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.article-footer {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: auto;
+}
+
+.article-footer .btn {
+  flex: 1;
+  text-align: center;
+  padding: 0.75rem;
+  font-size: 0.9rem;
+}
